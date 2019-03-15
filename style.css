@@ -1,0 +1,55 @@
+@font-face{
+    font-family: Love;
+    src:url(fonts/love.ttf);
+}
+img{
+    width:100%;
+}
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+body{
+    background-color:red;
+}
+h2{
+    font:normal 35px Love;
+    color:white;
+    text-align:center;
+}
+#main p{
+    font-size: 20px;
+    text-align:center;
+    color:white;
+}
+h3{
+    text-align:center;
+    color:white;
+    font: normal 25px Love;
+}
+#main img{
+    margin:auto;
+}
+
+
+
+/*Falling Hearts*/
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #ba0909;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
